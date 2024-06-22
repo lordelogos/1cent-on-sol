@@ -752,10 +752,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -875,8 +871,8 @@ video {
   width: weird-and-invalid;
 }
 
-.max-w-xl {
-  max-width: 36rem;
+.w-full {
+  width: 100%;
 }
 
 .flex-shrink {
@@ -1883,10 +1879,6 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.bg-\[\#00FFFF\]\/10 {
-  background-color: rgb(0 255 255 / 0.1);
-}
-
 .bg-\[\#0D0D0D\] {
   --tw-bg-opacity: 1;
   background-color: rgb(13 13 13 / var(--tw-bg-opacity));
@@ -1901,16 +1893,21 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/bj-meme-1\.jpg\'\)\] {
-  background-image: url('/bj-meme-1.jpg');
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/\.jpg\'\)\] {
-  background-image: url('/.jpg');
+.bg-\[\#00FFFF\]\/10 {
+  background-color: rgb(0 255 255 / 0.1);
 }
 
 .bg-\[url\(\'\/1-cent-meme-1\.jpg\'\)\] {
   background-image: url('/1-cent-meme-1.jpg');
+}
+
+.bg-\[url\(\'\/mufasa\.jpg\'\)\] {
+  background-image: url('/mufasa.jpg');
 }
 
 .decoration-slice {
@@ -2031,6 +2028,10 @@ video {
      object-fit: scale-down;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -2054,6 +2055,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-left {
@@ -2244,6 +2250,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-green-500 {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2675,6 +2686,15 @@ video {
 .hover\:text-\[\#00FFFF\]:hover {
   --tw-text-opacity: 1;
   color: rgb(0 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .before\:hover\:text-center:hover::before {
